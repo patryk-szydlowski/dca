@@ -1,0 +1,3 @@
+{
+	"extends": "@dca/typescript/preset-node-library.json"
+}

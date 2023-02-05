@@ -1,0 +1,4 @@
+{
+	"extends": "@dca/typescript/preset-workspace-root.json",
+	"exclude": ["apps", "libs", "tools"]
+}

@@ -12,11 +12,12 @@
 	},
 	"scripts": {
 		"lint:prettier": "prettier './!(apps|libs|tools)/**' --check",
+		"lint:typescript": "tsc",
 		"postinstall": "ignore-sync ."
 	},
 	"devDependencies": {
 		"@dca/prettier": "workspace:*",
-		"ignore-sync": "6.0.2",
-		"prettier": "3.0.0-alpha.4"
+		"@dca/typescript": "workspace:*",
+		"ignore-sync": "6.0.2"
 	}
 }

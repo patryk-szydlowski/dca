@@ -1,0 +1,9 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"moduleResolution": "bundler",
+		"module": "esnext",
+		"target": "esnext",
+		"types": ["@cloudflare/worker-types"]
+	}
+}

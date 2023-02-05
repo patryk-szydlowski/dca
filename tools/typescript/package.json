@@ -1,0 +1,15 @@
+{
+	"name": "@dca/typescript",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"lint:prettier": "prettier . --check"
+	},
+	"dependencies": {
+		"typescript": "5.0.0-beta"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "4.20230115.0",
+		"@types/node": "18.11.19"
+	}
+}

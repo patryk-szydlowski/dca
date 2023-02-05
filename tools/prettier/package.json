@@ -2,16 +2,17 @@
 	"name": "@dca/prettier",
 	"private": true,
 	"type": "module",
-	"exports": {
-		".": "./src/index.js"
-	},
+	"main": "./src/index.js",
+	"types": "./src/index.d.ts",
 	"scripts": {
-		"lint:prettier": "prettier . --check"
+		"lint:prettier": "prettier . --check",
+		"lint:typescript": "tsc"
 	},
 	"dependencies": {
 		"prettier": "3.0.0-alpha.4"
 	},
 	"devDependencies": {
-		"@types/prettier": "2.7.2"
+		"@types/prettier": "2.7.2",
+		"@dca/typescript": "workspace:*"
 	}
 }

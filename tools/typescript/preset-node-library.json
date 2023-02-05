@@ -1,0 +1,8 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": [
+		"./src/configurations/node-esm.json",
+		"./src/configurations/transpile-only.json",
+		"./src/configurations/strict.json"
+	]
+}
