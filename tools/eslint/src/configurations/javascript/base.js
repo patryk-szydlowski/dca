@@ -4,6 +4,7 @@ export const baseJavascriptConfig = [
 		rules: {
 			"sort-keys": "off",
 			"sort-imports": "off",
+			"one-var": ["error", "never"],
 		},
 	},
 ];

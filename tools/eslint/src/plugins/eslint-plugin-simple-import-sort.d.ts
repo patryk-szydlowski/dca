@@ -1,7 +1,9 @@
 declare module "eslint-plugin-simple-import-sort" {
-	import { ESLintPlugin } from "./plugin";
+	import { ESLint, Linter } from "eslint";
 
-	const plugin: ESLintPlugin;
+	const plugin: Omit<ESLint.Plugin, "configs"> & {
+		configs: Record<string, Linter.HasRules>;
+	};
 
 	export default plugin;
 }

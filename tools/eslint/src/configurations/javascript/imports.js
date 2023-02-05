@@ -8,8 +8,8 @@ export const importsConfig = {
 		"simple-import-sort": simpleImportSort,
 	},
 	rules: {
-		...importPlugin.configs.recommended.rules,
-		...importPlugin.configs.typescript.rules,
+		...importPlugin.configs["recommended"]?.rules,
+		...importPlugin.configs["typescript"]?.rules,
 
 		// Restrict
 		"import/no-useless-path-segments": ["error", { noUselessIndex: true }],
