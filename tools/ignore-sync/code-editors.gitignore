@@ -1,0 +1,8 @@
+# JetBrains products
+.idea/
+
+# JetBrains Fleet
+.fleet/
+
+# VSCode
+.vscode/

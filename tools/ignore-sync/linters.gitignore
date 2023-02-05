@@ -1,0 +1,5 @@
+# Include Github directory
+!.github/
+
+# Ignore lockfile
+pnpm-lock.yaml

@@ -1,0 +1,8 @@
+[github/gitignore]
+Node.gitignore
+Global/macOS.gitignore
+Global/Windows.gitignore
+Global/Linux.gitignore
+
+[local]
+tools/ignore-sync/code-editors.gitignore
