@@ -11,11 +11,13 @@
 		"yarn": "use-pnpm"
 	},
 	"scripts": {
+		"lint:eslint": "eslint . --ignore-pattern apps --ignore-pattern packages --ignore-pattern scripts --ignore-pattern tools",
 		"lint:prettier": "prettier './!(apps|libs|tools)/**' --check",
 		"lint:typescript": "tsc",
 		"postinstall": "ignore-sync ."
 	},
 	"devDependencies": {
+		"@dca/eslint": "workspace:*",
 		"@dca/prettier": "workspace:*",
 		"@dca/typescript": "workspace:*",
 		"ignore-sync": "6.0.2"

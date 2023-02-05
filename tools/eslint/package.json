@@ -1,5 +1,5 @@
 {
-	"name": "@dca/prettier",
+	"name": "@dca/eslint",
 	"private": true,
 	"type": "module",
 	"main": "./src/index.js",
@@ -10,10 +10,13 @@
 		"lint:typescript": "tsc"
 	},
 	"dependencies": {
-		"prettier": "3.0.0-alpha.4"
+		"eslint": "8.33.0",
+		"eslint-config-prettier": "8.6.0",
+		"eslint-plugin-jsonc": "2.6.0"
 	},
 	"devDependencies": {
 		"@dca/typescript": "workspace:*",
-		"@types/prettier": "2.7.2"
+		"@types/eslint": "8.21.0",
+		"typescript": "5.0.0-beta"
 	}
 }
