@@ -1,0 +1,17 @@
+{
+	"name": "@dca/prettier",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"scripts": {
+		"lint:prettier": "prettier . --check"
+	},
+	"dependencies": {
+		"prettier": "3.0.0-alpha.4"
+	},
+	"devDependencies": {
+		"@types/prettier": "2.7.2"
+	}
+}

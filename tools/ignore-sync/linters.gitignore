@@ -3,3 +3,9 @@
 
 # Ignore lockfile
 pnpm-lock.yaml
+
+# Ignore non-lintable files
+*.gitignore*
+*.prettierignore*
+.npmrc
+.editorconfig
