@@ -1,7 +1,8 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "./strict.json",
 	"compilerOptions": {
-		"moduleResolution": "bundler",
+		"moduleResolution": "node",
 		"module": "esnext",
 		"target": "esnext",
 		"types": ["@cloudflare/worker-types"]

@@ -14,6 +14,7 @@
 		"@typescript-eslint/parser": "5.50.0",
 		"eslint": "8.33.0",
 		"eslint-config-prettier": "8.6.0",
+		"eslint-import-resolver-typescript": "3.5.3",
 		"eslint-plugin-import": "2.27.5",
 		"eslint-plugin-jsonc": "2.6.0",
 		"eslint-plugin-simple-import-sort": "10.0.0"
@@ -21,7 +22,6 @@
 	"devDependencies": {
 		"@dca/typescript": "workspace:*",
 		"@types/eslint": "8.21.0",
-		"@types/eslint-config-prettier": "6.11.0",
-		"typescript": "5.0.0-beta"
+		"@types/eslint-config-prettier": "6.11.0"
 	}
 }

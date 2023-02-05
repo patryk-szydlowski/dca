@@ -29,14 +29,9 @@ export const importsConfig = {
 		"import/first": "error",
 		"import/newline-after-import": "error",
 		"import/no-duplicates": "error",
-
-		// TODO: enable when Typescript 5.0 is supported by eslint-plugin-import
-		"import/namespace": "off",
-		"import/export": "off",
 	},
 	settings: {
-		//  TODO: enable when Typescript 5.0 is supported by eslint-plugin-import
-		//  "import/extensions": ["**/*.js", "**/*.ts"],
-		// "import/resolver": { typescript: {} },
+		"import/extensions": ["**/*.js", "**/*.ts"],
+		"import/resolver": { typescript: {} },
 	},
 };
