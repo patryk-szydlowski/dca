@@ -11,7 +11,7 @@ export const importsConfig = {
 		...importPlugin.configs["recommended"]?.rules,
 		...importPlugin.configs["typescript"]?.rules,
 
-		// Restrict
+		// Restrict unsound imports
 		"import/no-useless-path-segments": ["error", { noUselessIndex: true }],
 		"import/no-empty-named-blocks": "error",
 		"import/no-extraneous-dependencies": [
@@ -22,6 +22,9 @@ export const importsConfig = {
 		"import/no-named-as-default-member": "error",
 		"import/no-named-as-default": "error",
 		"import/no-named-default": "error",
+		"import/no-amd": "error",
+		"import/no-commonjs": "error",
+		"import/no-nodejs-modules": "error",
 
 		// Sort imports
 		"simple-import-sort/imports": "error",

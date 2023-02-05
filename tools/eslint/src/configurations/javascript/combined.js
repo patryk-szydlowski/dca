@@ -1,4 +1,5 @@
 import { baseJavascriptConfig } from "./base.js";
+import { functionalConfig } from "./conventions.js";
 import { importsConfig } from "./imports.js";
 import { prettierConfig } from "./prettier.js";
 import { standardsConfig } from "./standards.js";
@@ -9,5 +10,6 @@ export const javascriptConfig = [
 	...typescriptConfig,
 	importsConfig,
 	standardsConfig,
+	functionalConfig,
 	prettierConfig,
 ];

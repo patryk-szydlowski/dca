@@ -17,6 +17,7 @@
 		"eslint-import-resolver-typescript": "3.5.3",
 		"eslint-plugin-array-func": "3.1.8",
 		"eslint-plugin-eslint-comments": "3.2.0",
+		"eslint-plugin-functional": "5.0.2",
 		"eslint-plugin-import": "2.27.5",
 		"eslint-plugin-jsonc": "2.6.0",
 		"eslint-plugin-promise": "6.1.1",
