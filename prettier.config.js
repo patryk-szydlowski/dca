@@ -1,3 +1,1 @@
-import { prettierConfig } from "@dca/prettier";
-
-export default prettierConfig;
+export { prettierConfig as default } from "@dca/prettier";

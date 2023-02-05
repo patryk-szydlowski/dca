@@ -15,13 +15,19 @@
 		"eslint": "8.33.0",
 		"eslint-config-prettier": "8.6.0",
 		"eslint-import-resolver-typescript": "3.5.3",
+		"eslint-plugin-array-func": "3.1.8",
+		"eslint-plugin-eslint-comments": "3.2.0",
 		"eslint-plugin-import": "2.27.5",
 		"eslint-plugin-jsonc": "2.6.0",
-		"eslint-plugin-simple-import-sort": "10.0.0"
+		"eslint-plugin-promise": "6.1.1",
+		"eslint-plugin-regexp": "1.12.0",
+		"eslint-plugin-simple-import-sort": "10.0.0",
+		"eslint-plugin-unicorn": "45.0.2"
 	},
 	"devDependencies": {
 		"@dca/typescript": "workspace:*",
 		"@types/eslint": "8.21.0",
-		"@types/eslint-config-prettier": "6.11.0"
+		"@types/eslint-config-prettier": "6.11.0",
+		"prettier": "3.0.0-alpha.4"
 	}
 }

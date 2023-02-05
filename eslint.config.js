@@ -1,3 +1,1 @@
-import { eslintConfig } from "@dca/eslint";
-
-export default eslintConfig;
+export { eslintConfig as default } from "@dca/eslint";
